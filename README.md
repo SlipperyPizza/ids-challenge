@@ -43,7 +43,7 @@ project/
 ```
 
 ## 4. How to Run
-# Method A: Running Locally
+### Method A: Running Locally
 1. Install Dependencies
 ``` bash
 pip install -r requirements.txt
@@ -57,7 +57,7 @@ python solution/solution.py
 3.  View Output.
 
 
-# Method B: Running with Docker (Recommended)
+### Method B: Running with Docker (Recommended)
 1. Open Terminal and navigate using cd to the root project/ directory.
 2. Make the script executable.
 ``` bash
