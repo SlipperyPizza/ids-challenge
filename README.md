@@ -49,7 +49,7 @@ project/
 pip install -r requirements.txt
 ```
 
-2. Run the Script
+2. Run the Script from the project/ directory
 ``` bash
 python solution/solution.py
 ```
