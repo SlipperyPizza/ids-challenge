@@ -54,7 +54,7 @@ def rekonstruksi_tabel_bertahap(events: list):
     """
     Generator yang menghasilkan (yields) state DataFrame setelah setiap event.
     """
-    # events.sort(key=lambda x: x["ts"])
+    events.sort(key=lambda x: x["ts"])
     records = {}
     
     # Proses semua event 'create' terlebih dahulu untuk state awal
@@ -229,3 +229,4 @@ print("-" * 40)
 transactions_df = find(cards_ev, savings_accounts_ev)
 print("Detected Transactions: ")
 print(transactions_df)
+
